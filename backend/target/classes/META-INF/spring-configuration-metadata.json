@@ -1,0 +1,50 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "name": "ignite.configuration.default",
+      "type": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "defaultValue": false,
+      "name": "ignite.configuration.default.client-mode",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "name": "ignite.configuration.default.config-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "name": "ignite.configuration.default.grid-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "name": "ignite.configuration.default.ip-discovery-range",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "name": "ignite.configuration.default.local-address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "defaultValue": false,
+      "name": "ignite.configuration.default.peer-class-loading-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.jvirriel.testrestful.backend.configuration.DefaultIgniteProperties",
+      "defaultValue": false,
+      "name": "ignite.configuration.default.use-same-server-names",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
