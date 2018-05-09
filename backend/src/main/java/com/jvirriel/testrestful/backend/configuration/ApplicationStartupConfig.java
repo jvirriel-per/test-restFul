@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import static java.lang.Thread.sleep;
 
 @Component
-@ComponentScan("com.credix.batchprocessor.model")
+@ComponentScan("com.jvirriel.testrestful.model")
 public class ApplicationStartupConfig implements ApplicationListener<ApplicationReadyEvent> {
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
